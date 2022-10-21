@@ -34,6 +34,7 @@ class Animal:
     def __str__(self):
         return f"{self.name} likes to eat {self.food}s" + self.itemsInPocket()
 
+
 #instanssin eli olion luonti luokasta 
 ape = Animal("Cheetah", "banana")
 coder = Animal("Samu", "nut")
