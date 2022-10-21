@@ -15,7 +15,7 @@ class GrandParent:
 #class Parent inherits GrandParent
 class Parent(GrandParent):
     pass
-    #if class has no __init__ parents __init__ is used
+    #if class has no method parents method is used
     #def __init__(self):
     #    print("Parent init called...")
 
