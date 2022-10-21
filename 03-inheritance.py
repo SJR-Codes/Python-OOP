@@ -9,9 +9,14 @@ class GrandParent:
     def __init__(self):
         print("GrandParent init called...")
 
-#class parent inherits GrandParent
+    def familySaying(self):
+        print("We're bloody Finns!")
+
+#class Parent inherits GrandParent
 class Parent(GrandParent):
     def __init__(self):
         print("Parent init called...")
 
-        
+#when class inherits another class it gets parent classes methods
+anna = Parent()
+anna.familySaying()
