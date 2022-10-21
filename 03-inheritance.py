@@ -14,8 +14,10 @@ class GrandParent:
 
 #class Parent inherits GrandParent
 class Parent(GrandParent):
-    def __init__(self):
-        print("Parent init called...")
+    pass
+    #if class has no __init__ parents __init__ is used
+    #def __init__(self):
+    #    print("Parent init called...")
 
 #when class inherits another class it gets parent classes methods
 anna = Parent()
