@@ -1,7 +1,7 @@
 """
 * Taitotalo Python 21.10.2022
 * 01-animal.py
-* object oriented programming with python
+* object oriented programming with Python
 * Created by Samu Reinikainen
 """
 
